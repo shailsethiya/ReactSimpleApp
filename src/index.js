@@ -1,13 +1,13 @@
-import React,{Components} from 'react';
+import React,{Component} from 'react';
 import ReactDOM from 'react-dom';
 import SearchBar from './components/search_bar';
 import YTSearch from 'youtube-api-search';
 import VideoList from './components/video_list';
 import VideoDetail from './components/video_detail';
 
-const API_KEY = 'AIzaSyARHm2zZJC0A3acdMSXGC4AuXFGzwk_5ik';
+const API_KEY = 'AIzaSyBL6eHwVXebVW8BlVgT5fYTrP_mH07qn88';
 
-class App extends Components{
+class App extends Component{
 	constructor(props){
 		super(props);
 		this.state = { 
